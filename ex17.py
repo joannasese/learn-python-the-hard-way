@@ -8,7 +8,7 @@ script, from_file, to_file = argv
 
 # in_file = open(from_file)
 # indata = in_file.read()
-indata = open(from_file).read()
+indata = open(from_file).read();
 
 print(f"""
 The input file is {len(indata)} bytes long.
